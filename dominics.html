@@ -1,39 +1,49 @@
 <!DOCTYPE html>
+<html>
 	<head>
+			<style>
+					body { background-color: black;
+				 }
+					h1 { text-align: center;
+					}
+					p{ font-family: "Times New Roman";
+						font-size:20px;
+					}
+						</style>
 		<meta charset="utf-8">
 		<title> MY PROFILE </title>
 	</head>
-
 	<body>
 		<table>
 			<section>
-			<h1>DOMINIC AKPAN</h1><br>
-            <img src="">
+			<h1 style="color: maroon"> DOMINIC AKPAN</h1><br>
+            <img src="https://res.cloudinary.com/padom2020/image/upload/v1566740261/IMG-20190819-WA0002_xhki10.jpg" "width="500"  height="250"">
 			<br/><br><br><hr/></section>
-			<tr>
-				<td><h2> <b>Personal Profile</b></td>
-				<td>
-					<h3>Personal Data</h3>
+			<tr style="color: firebrick">
+				<td style="color: firebrick"><h2 style="color: blanchedalmond"> <b>Personal Profile</b></td>
+				<td style="color: firebrick">
+					<h3 style="color:firebrick">Personal Data</h3>
 					<br/>
-						Sex:             Male
-						State of Origin:Akwa Ibom State 
-						Nationality:    Nigerian
-						Marital Status  Single
+						<li>Sex:             Male</li>
+						<li>State of Origin: Akwa Ibom State </li>
+						<li>Nationality:     Nigerian</li>
+						<li>Marital Status   Single</li>
+						<li>Contact:         08165407995</li>
+						<li>Email :          drmusic2021@gmail</li>
 				</td>
 			 </tr>
-			<tr>
-				<td><b><h2> Work Experience</b></h2></td>
-					<td>Work Experience  <br>
-						.<br>
 
-						Work as: <li>Manager/CEO-Adom ICTC Services, 2014-till date</li>
-                                 <li>Blogger/Manager -Adasedeyhot.com</li>
+			<tr style="color: firebrick">
+				<td style="color: firebrick"><b><h2 style="color: blanchedalmond"> Work Experience</b></h2></td>
+					<td style="color: firebrick">  <br>
+						.<br>	
+						      Work as: <br> <li>Manager/CEO-Adom ICTC Services, 2014-till date</li>
+                                          <li>Blogger/Manager -Adasedeyhot.com</li>
                     </td>
-					
 			 </tr>
-			<tr> 
-			    <td><h2> <b>Professional Skills</b></h2></td>
-				<td> 
+			<tr style="color: firebrick"> 
+			    <td style="color: firebrick"><h2 style="color: blanchedalmond"> <b>Professional Skills</b></h2></td>
+				<td style="color: firebrick"> 
                     <ul>
 						<li>Ability to multitask and pay attention to details</li>
                        <li> Fast and efficient penmanship</li>
@@ -42,11 +52,10 @@
                         <li>A good Computer literate with good experience in Microsoft,excel,powerpoint internet framework</li>
 					</ul>
 				</td>
-				
 			</tr><br>
-			<tr> 
-				<td><h2><b> Education</b></h2></td><br>
-						<td>
+			<tr style="color: firebrick"> 
+				<td style="color: firebrick"><h2 style="color: blanchedalmond"><b> Education</b></h2></td><br>
+						<td style="color: firebrick">
 							<ul>
 								<li>University of Port Harcoourt</li> 
 								<li>Bsc. in view</li> 
@@ -59,10 +68,9 @@
 					   </td>
 					        </ul> 
                 </td>
-				
 			</tr>
-			<tr> 
-				<td><h2><b>Team Skills</b></h2></td>
+			<tr style="color: firebrick"> 
+				<td><h2 style="color: blanchedalmond"><b>Team Skills</b></h2></td>
 				<td> 
                     <ul>
 						<li>Team player</li>
@@ -75,9 +83,9 @@
 				    </ul>
                 </td>
 			</tr>
-             <tr> 
-				<td><h2>Interest/Hobbies</h2></td>
-				<td>
+             <tr style="color: firebrick"> 
+				<td style="color: firebrick"><h2 style="color: blanchedalmond">Interest/Hobbies</h2></td>
+				<td style="color: firebrick"> 
                     <ul>
 						<li>Professional Violinist</li>
                          <li>Music (listening and making good music)</li>
@@ -89,5 +97,36 @@
 			 </tr>
 
 		</table>
+		<div id="modal-with-form" class="contact-modal hide-modal">
+        <div class="container">  
+                <form id="contact-form">
+                  <h3 style="color: firebrick" >You Can Reachout to Me!!!.</h3>
+                  <h4style="color: firebrick">Just Fill this form and I will get right back to You!!!</h4>
+                  <span id="close-btn">&times;</span>
+                  <fieldset>
+                    <input type="text" id="name" required autofocus minlength="4" placeholder="Your Name">
+                    
+                  </fieldset>
+                  <fieldset>
+                    <input type="email" id="email" required placeholder="Your Email Here...">
+                    
+                  </fieldset>
+                  
+                 
+                  <fieldset>
+                    <textarea id="message" minlength="20" required placeholder="Type your message here..."></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button name="submit" id="contact-submit">Submit</button>
+                  </fieldset>
+                </form>
+              </div>
+            </div>
+        <div class="contact-modal-open-btn">
+         <h2 style="color: firebrick">Contact me.</h2>
+        </div>
+    <footer style="color: firebrick">PaDom &copy; 2019</footer>
+    <script src="test.js"></script
 	</body>
 </html>
+
